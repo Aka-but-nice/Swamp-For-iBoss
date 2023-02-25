@@ -3,7 +3,7 @@ var swamp, chrome;
 /*
  */
 swamp = {
-  background: chrome.extension?.getBackgroundPage(),
+  background: opener.chrome.extension?.getBackgroundPage(),
   /*
    */
   elements: {
